@@ -1,0 +1,67 @@
+body {
+    background-image: url(images/bg.jpg);
+    background-size: auto;
+}
+
+a, a:hover {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+#header {
+    text-align: center;
+    color: seashell;
+    font-family: 'Anton', sans-serif;
+}
+
+.pic-div img {
+    width: 350px;
+
+}
+
+.searches {
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+
+#odd-row {
+    background: rgb(255,255,255,0.2);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: right;
+}
+
+
+#even-row {
+    background: rgb(255,255,255,0.5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: left;
+}
+
+.hoverGrow {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    z-index:10
+}
+
+.hoverGrow:hover {
+    box-shadow: 5px 8px 4px darkcyan;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    z-index:200
+}
